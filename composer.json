@@ -1,5 +1,6 @@
 {
   "name": "jcarloscid/moodlecon",
+  "version": "1.0.0",
   "type": "prestashop-module",
   "description": "Allows to enrol customers into your Moodle School's courses, after buying the enrolment in PrestaShop",
   "license": "GPL-2.0-or-later",
