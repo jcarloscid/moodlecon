@@ -1,0 +1,11 @@
+Hi {firstname} {lastname},
+
+Your order {order} entitles you for the enrolment on courses from the learning platform {moodle-site}.
+
+Courses entitled on current order are:
+
+{courses_txt}
+
+You can now login to {moodle-site} and start your training.
+
+{shop_url} powered by PrestaShop™

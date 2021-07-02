@@ -1,0 +1,11 @@
+Hola {firstname} {lastname},
+
+Tu pedido {order} te acredita para matricularte en cursos de la plataforma de educación {moodle-site}.
+
+Los cursos incluidos en tu pedido son:
+
+{courses_txt}
+
+Ya puedes iniciar sesión en <strong>{moodle-site}</strong> y comenzar a disfrutar de tus cursos.
+
+{shop_url} powered by PrestaShop™

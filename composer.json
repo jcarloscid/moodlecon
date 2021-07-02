@@ -1,0 +1,34 @@
+{
+  "name": "jcarloscid/moodlecon",
+  "type": "prestashop-module",
+  "description": "Allows to enrol customers into your Moodle School's courses, after buying the enrolment in PrestaShop",
+  "license": "GPL-2.0-or-later",
+  "authors": [
+    {
+      "name": "Carlos Cid",
+      "email": "carlos@fishandbits.es",
+      "homepage": "https://fishandbits.es/",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": ">=7",
+    "jcarloscid/moodle-ws-helper": "1.0.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "JCarlosCid\\Controllers\\": "controllers/admin/",
+      "JCarlosCid\\Entities\\": "classes/",
+      "JCarlosCid\\Entities\\DAO\\": "classes/"
+    }
+  },
+  "config": {
+    "prepend-autoloader": false
+  },
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/jcarloscid/moodle-ws-helper"
+    }
+  ]
+}

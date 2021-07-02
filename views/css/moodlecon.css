@@ -1,0 +1,14 @@
+#moodlecon-logo { margin-right: 20px; }
+.moodlecon-header {
+  display: flex;
+  align-items: flex-end;
+}
+.moodlecon-list h4 { margin-top: 20px; }
+.moodlecon-list ul {
+  margin-left: 2em;
+  list-style-type: circle;
+  list-style-position: outside;
+}
+.moodlecon-list li {
+  margin: 0.25em 1em;
+}

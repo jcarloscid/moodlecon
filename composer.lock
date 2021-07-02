@@ -1,0 +1,101 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "c33ab82e11ae54dbefa216aa841c8471",
+    "packages": [
+        {
+            "name": "jcarloscid/moodle-ws-helper",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/jcarloscid/moodle-ws-helper.git",
+                "reference": "c73fd75e33558844685ed20229cc3ae7a4dbe5f3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/jcarloscid/moodle-ws-helper/zipball/c73fd75e33558844685ed20229cc3ae7a4dbe5f3",
+                "reference": "c73fd75e33558844685ed20229cc3ae7a4dbe5f3",
+                "shasum": ""
+            },
+            "require": {
+                "llagerlof/moodlerest": "2.4.0",
+                "php": ">=7"
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "MoodleWSHelper.php"
+                ]
+            },
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Carlos Cid",
+                    "email": "carlos@fishandbits.es",
+                    "homepage": "https://fishandbits.es/",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Allows to use a number of Moodle functions via the web service",
+            "support": {
+                "source": "https://github.com/jcarloscid/moodle-ws-helper/tree/1.0.0",
+                "issues": "https://github.com/jcarloscid/moodle-ws-helper/issues"
+            },
+            "time": "2021-07-02T09:10:12+00:00"
+        },
+        {
+            "name": "llagerlof/moodlerest",
+            "version": "2.4.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/llagerlof/MoodleRest.git",
+                "reference": "3fb24a0dd494d8dbbac70999b26627ce4ee63ac4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/llagerlof/MoodleRest/zipball/3fb24a0dd494d8dbbac70999b26627ce4ee63ac4",
+                "reference": "3fb24a0dd494d8dbbac70999b26627ce4ee63ac4",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "MoodleRest.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Lawrence Lagerlof",
+                    "email": "llagerlof@gmail.com"
+                }
+            ],
+            "description": "MoodleRest is a PHP class to query Moodle REST webservices",
+            "homepage": "https://github.com/llagerlof",
+            "support": {
+                "issues": "https://github.com/llagerlof/MoodleRest/issues",
+                "source": "https://github.com/llagerlof/MoodleRest/tree/v2.4.0"
+            },
+            "time": "2021-04-14T14:47:33+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {
+        "php": ">=7"
+    },
+    "platform-dev": [],
+    "plugin-api-version": "2.0.0"
+}
