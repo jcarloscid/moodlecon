@@ -554,9 +554,9 @@ class MoodleCon extends Module {
         $link = new MoodleLink(null, $id_product, $product_combination, $course_id, $role_id, $enrolment_duration, $enrolment_enabled);
         if ($link->add()) {
           if (is_null($link->ID)) {
-            $output .= $this->displayWarning($this->l("The link already exists. Not added."));
+            $output .= $this->displayWarning($this->l('The link already exists. Not added.'));
           } else {
-            $output .= $this->displayConfirmation($this->l("Link added successfuly (ID={$link->ID})"));
+            $output .= $this->displayConfirmation($this->l('Link added successfuly') . " (ID={$link->ID})");
           }
           $new_link_cleanup = true;
         } else {
