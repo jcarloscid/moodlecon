@@ -39,6 +39,7 @@
     <li><code>core_course_get_courses</code></li>
     <li><code>core_user_get_users_by_field</code></li>
     <li><code>core_user_create_users</code></li>
+    <li><code>core_role_assign_roles</code></li>
     <li><code>enrol_manual_enrol_users</code></li>
     <li><code>local_wsgetroles_get_roles</code> ({l s='from plugin' mod='moodlecon'} <code>local_wsgetroles</code>)</li>
   </ul>
