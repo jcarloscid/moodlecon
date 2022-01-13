@@ -37,8 +37,11 @@ The following actions needs to be authorized for the service:
 * `core_course_get_courses`
 * `core_user_get_users_by_field`
 * `core_user_create_users`
+* `core_role_assign_roles`
 * `enrol_manual_enrol_users`
 * `local_wsgetroles_get_roles` (from plugin `local_wsgetroles`)
+
+For a step-by-step guide to configure your moodle instance, please read [this article](https://fishandbits.es/moodle-prestashop-integracion/#habilitar-servicio-web) 
 
 ## Translations
 
@@ -61,3 +64,7 @@ This program is distributed in the hope that it will be useful, but WITHOUT ANY 
 You should have received a copy of the GNU General Public License along with this program; if not, write to the Free Software Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA  02111-1307,USA.
 
 The "GNU General Public License" (GPL) is available at http://www.gnu.org/licenses/old-licenses/gpl-2.0.html
+
+## More info
+
+Please read [this article](https://fishandbits.es/moodle-prestashop-integracion/#habilitar-servicio-web) for more details about this module (language: Spanish).
