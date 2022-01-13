@@ -41,7 +41,7 @@ The following actions needs to be authorized for the service:
 * `enrol_manual_enrol_users`
 * `local_wsgetroles_get_roles` (from plugin `local_wsgetroles`)
 
-For a step-by-step guide to configure your moodle instance, please read [this article](https://fishandbits.es/moodle-prestashop-integracion/#habilitar-servicio-web) 
+For a step-by-step guide to configure your Moodle instance, please read [this article](https://fishandbits.es/moodle-prestashop-integracion/#habilitar-servicio-web).
 
 ## Translations
 
