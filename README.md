@@ -45,7 +45,7 @@ For a step-by-step guide to configure your Moodle instance, please read [this ar
 
 ## Translations
 
-**OAuth 2.0 Single SignOn Client** is provided with translations for the following languages:
+**Moodle Connector** is provided with translations for the following languages:
 
 * Spanish from Spain (`es_ES`)
 
